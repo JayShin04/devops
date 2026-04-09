@@ -1,7 +1,7 @@
 services:
   #(1) Flask 서비스
   web:
-    image: JayShin04/my-ncp:latest
+    image: jayshin04/my-ncp:latest
     container_name: flask_app
     expose:
       - "5000"
